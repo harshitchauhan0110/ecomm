@@ -22,9 +22,9 @@ def main():
                 st.dataframe(data.head())
 
                 st.subheader("Basic information of the data")
-                st.write("shape of the data", data.shape)
-                st.write("columns in my", data.columns)
-                st.write("missing valu", data.isnull().sum())
+                st.write("Shape of the data", data.shape)
+                st.write("Columns in my data", data.columns)
+                st.write("Missing value", data.isnull().sum())
                 
                 st.subheader("I will show you stats of the data")
                 st.write(data.describe())
